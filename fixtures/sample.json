@@ -1,5 +1,30 @@
 {
   "说明": "本地合成演练资料",
-  "业务对象": "客户归属决议的事实重织与集市整代切换",
-  "记录": []
+  "业务对象": "机器人技能包版本与训练样本归属",
+  "记录": [
+    {
+      "skill": "pick-cup",
+      "version": "v3",
+      "hardware": "arm-a",
+      "sensor": "cam-2",
+      "sample": "train-1",
+      "kind": "实机"
+    },
+    {
+      "skill": "pick-cup",
+      "version": "v3",
+      "hardware": "sim-a",
+      "sensor": "cam-2",
+      "sample": "train-2",
+      "kind": "仿真"
+    },
+    {
+      "skill": "place-box",
+      "version": "v2",
+      "hardware": "arm-b",
+      "sensor": "cam-3",
+      "sample": "train-3",
+      "kind": "实机"
+    }
+  ]
 }
